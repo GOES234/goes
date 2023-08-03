@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GOES - Grupos de Operaciones Especiales</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000; /* Fondo negro */
+      color: #add8e6; /* Letras en azul claro */
+    }
+
+    header {
+      background-color: #FF0000; /* Fondo rojo */
+      text-align: left; /* Alineación del texto a la izquierda */
+      padding: 5px; /* Reducir el padding del encabezado */
+    }
+
+    header h1 {
+      font-size: 20px; /* Tamaño más pequeño */
+      color: #000000; /* Letras en rojo */
+      margin-bottom: 5px; /* Espaciado inferior más pequeño */
+    }
+
+    #logo {
+      width: 50px; /* Tamaño del logo más pequeño */
+      float: left; /* Mover el logo a la izquierda */
+      margin-right: 10px; /* Espaciado entre el logo y el texto */
+    }
+
+    #slider {
+      width: 100%;
+      max-width: 800px;
+      margin: 50px auto;
+    }
+
+    #slider img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+
+    .slider-content {
+      text-align: center;
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      text-align: justify;
+      color: #fff; /* Letras en blanco */
+    }
+
+    /* Eliminar los botones (flechas) del slider */
+    .slick-prev,
+    .slick-next {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#">
+      <img  id="logo" src="GOES.png" alt="Logo GOES">
+    </a>
+    <h1>GOES - Grupos de Operaciones Especiales</h1>
+  </header>
+
+  <div class="slider-content">
+    <h2>Conoce más sobre los GOES</h2>
+    <p>
+      Los Grupos de Operaciones Especiales (GOES) son unidades especiales de la fuerza de vida rol que se encargan de llevar a cabo operaciones de alta complejidad y riesgo. Estos grupos están altamente entrenados y equipados para enfrentar situaciones extremadamente peligrosas y delicadas.
+    </p>
+    <p>
+      Los GOES se especializan en diversas áreas, incluyendo operaciones antiterroristas, rescate de rehenes, combate en zonas navales  y rurales, y lucha contra el narcotráfico. Su entrenamiento riguroso y su preparación les permiten enfrentar misiones críticas para la seguridad y la paz del país.
+    </p>
+    <p>
+      Estos equipos altamente capacitados son una parte fundamental de las fuerzas de seguridad Estado unidenses y juegan un papel crucial en la protección de los ciudadanos y la lucha contra el crimen y el terrorismo.
+    </p>
+    <h2>¿Para qué servirá?</h2>
+    <p>
+      La estrategia principal para la fuerza naval de los EE. UU. de la ciudad de "VIDA ROL" servirá y se centrará en un despliegue de apoyo a los aliados y el mismo ejército de los Estados Unidos, sobre todo con grupos de batalla. Servirá para estrategias de allanamientos por el agua o cargamentos de drogas por el agua. También ayudará de apoyo principal en caso de tráfico de personas y será fundamental para el escape de presidentes en caso de atentados terroristas.
+    </p>
+    <h2>Estrategias</h2>
+    <p>
+      ¿Cómo se darán? 
+    </p>
+    <ol>
+      <li>Bueno, en caso de cargamento de drogas en agua, se irán 2 en un bote del portaaviones y otro en el helicóptero modelo "Raindance" - "Unidad RD-1-2". El helicóptero tendrá siempre en avistamiento al barco enemigo/terrorista para alertar al helicoptero en caso de abrir fuego, y así el helicóptero realizará una retirada instantánea y abrirá fuego desde el agua si es necesario.
+      </li>
+    </ol>
+  </div>
+
+  <div id="slider">
+    <!-- Agrega aquí las imágenes para el slider -->
+    <div><img src="Imagen1.png" alt="Imagen 1"></div>
+    <div><img src="Imagen2.png" alt="Imagen 2"></div>
+    <div><img src="Imagen3.png" alt="Imagen 3"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('#slider').slick({
+        autoplay: true,
+        autoplaySpeed: 2000  // Cambiar imagen cada 5 segundos
+      });
+    });
+  </script>
+</body>
+</html>
